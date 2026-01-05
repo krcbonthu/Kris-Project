@@ -20,7 +20,7 @@ stages:
   displayName: 'Deploy to Server'
   jobs:
   - deployment: DeployApp
-    displayName: 'Deploy the Job'
+    displayName: 'Deploy the Job to the ubuntu Server'
     environment: 'MyDeploymentEnvironment.MyServerResourceName' # Link to your specific environment/resource
     strategy:
       runOnce:
