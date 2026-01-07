@@ -9,9 +9,9 @@ stages:
   displayName: 'Build application'
   jobs:
   - job: Build
-    displayName: 'Build'
-    steps:
-    - script: echo "Building application..."
+    displayName: 'Build to update the services'
+    
+    - script: echo "Building application..." 
       displayName: 'Run a build script'
     # Add tasks to build your app and publish artifacts
     - publish build artifacts
